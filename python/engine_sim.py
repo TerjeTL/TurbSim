@@ -303,8 +303,9 @@ ax.plot(engine.m1_corr/m1_corr_design, engine.pi_comp, '-ro')
 
 plt.show()
 
-# Now lets do transient!
-
+########################
+# Transient Simulation #
+########################
 # State vector takes the form 
 # X = [N, p2, p4]
 
@@ -416,6 +417,10 @@ def transient_step(dt, dT23):
     engine.T04 = T04
     engine.m1_corr = m1_corr
     engine.m4_corr = m4_corr
+
+##################
+# Simulation Run #
+##################
 
 dt = 0.001
 t_stop = 20.0

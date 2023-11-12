@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 from scipy import optimize
 import numpy as np
 
+# This is just a file to experiment with the compressor model
+
 #########################
 # Analytical compressor #
 #########################
