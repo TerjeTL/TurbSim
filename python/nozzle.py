@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Just testing out equations for the nozzle
+
 #m_c = 
 gamma = 1.3
 n_j = 0.85
